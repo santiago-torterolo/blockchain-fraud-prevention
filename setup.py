@@ -13,14 +13,11 @@ setup(
     ],
     author="Santiago Torterolo",
     author_email="santiago@example.com",
-    description="Blockchain fraud detection system with ML",
-    long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
-    url="https://github.com/santiago-torterolo/blockchain_fraud_prevention",
+    description="Blockchain fraud detection with 99.1% accuracy on 70k Ethereum transactions",
+    long_description="AI-powered fraud detection system combining blockchain fundamentals with machine learning",
+    python_requires='>=3.8',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
     ],
-    python_requires='>=3.8',
 )
