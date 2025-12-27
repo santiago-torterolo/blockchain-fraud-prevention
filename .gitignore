@@ -1,15 +1,59 @@
+# ---- Python bytecode / caches ----
 __pycache__/
 *.py[cod]
 *$py.class
+
+# ---- Virtual environments ----
 .venv/
-env/
 venv/
+env/
 ENV/
-.env
-.pytest_cache/
+
+# ---- Build / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.iml
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Jupyter ----
 .ipynb_checkpoints/
-# Don't ignore the package's data module
-!blockchain_fraud_prevention/data/
-# Ignore the top-level data directory but keep .gitkeep
-/data/*
-!/data/.gitkeep
+*.nb.html
+
+# ---- Testing / coverage ----
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Secrets ----
+.env
+.env.*
+
+# ---- Data (mantener solo placeholders) ----
+data/**/*.csv
+data/**/*.parquet
+data/**/*.json
+!data/.gitkeep
+
+# ---- Trained models / artifacts ----
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+
+# ---- Streamlit ----
+.streamlit/secrets.toml

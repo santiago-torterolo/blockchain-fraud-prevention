@@ -1,5 +1,13 @@
-pandas
 numpy
+pandas
 scikit-learn
+xgboost
+streamlit
+plotly
 flask
+jupyter
 pytest
+pytest-cov
+python-dotenv
+tqdm
+
